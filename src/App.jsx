@@ -11,9 +11,9 @@ import {
   Switch,
   Route,
   Link,
-  // useRouteMatch,
-  // useParams,
-  // useHistory,
+  useRouteMatch,
+  useParams,
+  useHistory,
 } from 'react-router-dom'
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
                <Link to="/contact">Contact</Link>
              </li>
              <li>
-               <Link to="/non">NOn</Link>
+               <Link to="/non">Non</Link>
              </li>
 
            </ul>
